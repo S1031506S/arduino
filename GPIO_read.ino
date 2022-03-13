@@ -1,4 +1,4 @@
-#define inputPin 0
+#define inputPin 23
 
 void setup() {
   Serial.begin(9600);
