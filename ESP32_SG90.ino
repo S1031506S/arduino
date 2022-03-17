@@ -35,7 +35,7 @@ void loop() {
     //IOstate = 0;// tell servo to go to position in variable 'pos'
     delay(500);   
   }
-  if(pos == 210)
+  if(pos > 180)
   {
     myservo.write(0);   
     pos = 0;
