@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T03:45:06.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.108 Safari/537.36" etag="PEtXqAg-PvoO03JTOWnT" version="16.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-12T03:53:42.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.108 Safari/537.36" etag="zjzrMvMG172LMzIUzoxp" version="16.6.8" type="github">
   <diagram id="Qv2h1EbR9MERww-3qoIi" name="Page-1">
-    <mxGraphModel dx="319" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="924" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,6 +227,57 @@
         </mxCell>
         <mxCell id="ZfQKTGb5kcTvKhnk0vQk-66" value="確認觸控板的狀態" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-57" target="ZfQKTGb5kcTvKhnk0vQk-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-68" value="Serial available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-70" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-71" value="handle_serial" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-72" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-73" value="將Serial讀到的數值儲存在Buffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="355" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-74" value="依_mode值決定是否執行修正和測試" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="375" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-68" target="ZfQKTGb5kcTvKhnk0vQk-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="420" as="sourcePoint" />
+            <mxPoint x="780" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="280" />
+              <mxPoint x="970" y="1160" />
+              <mxPoint x="40" y="1160" />
+              <mxPoint x="40" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-76" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="255" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="610" as="sourcePoint" />
+            <mxPoint x="590" y="1160.6666666666667" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
