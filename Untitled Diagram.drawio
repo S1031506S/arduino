@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T03:22:03.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.108 Safari/537.36" etag="1yAniUzy8dKW-pfeaa6o" version="16.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-12T03:45:06.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.108 Safari/537.36" etag="PEtXqAg-PvoO03JTOWnT" version="16.6.8" type="github">
   <diagram id="Qv2h1EbR9MERww-3qoIi" name="Page-1">
-    <mxGraphModel dx="220" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="319" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,23 +154,79 @@
             <mxPoint x="160" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-38" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="830" width="120" height="60" as="geometry" />
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-38" value="handle_input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZfQKTGb5kcTvKhnk0vQk-39" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="790" width="40" height="140" as="geometry" />
+          <mxGeometry x="220" y="790" width="40" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZfQKTGb5kcTvKhnk0vQk-40" value="紀錄時間" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="790" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-41" value="呼叫handle_hardware()函式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="810" width="160" height="20" as="geometry" />
+          <mxGeometry x="260" y="910" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZfQKTGb5kcTvKhnk0vQk-42" value="呼叫handle_kinematics()函式&lt;br&gt;並引入持續時間、選轉方向、&lt;br&gt;高度、週期參數到函式裡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="830" width="170" height="50" as="geometry" />
+          <mxGeometry x="260" y="930" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZfQKTGb5kcTvKhnk0vQk-43" value="呼叫handle_input()函式" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="880" width="150" height="30" as="geometry" />
+          <mxGeometry x="265" y="980" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-44" value="判斷Serial有沒有數據進來" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1010" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-38" target="ZfQKTGb5kcTvKhnk0vQk-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="860" as="sourcePoint" />
+            <mxPoint x="160" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-48" value="Loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-49" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfQKTGb5kcTvKhnk0vQk-48" target="ZfQKTGb5kcTvKhnk0vQk-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1060" as="sourcePoint" />
+            <mxPoint x="610" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="1120" />
+              <mxPoint x="490" y="1120" />
+              <mxPoint x="490" y="930" />
+              <mxPoint x="490" y="30" />
+              <mxPoint x="590" y="30" />
+              <mxPoint x="590" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-57" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;handle_kinematics&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-58" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="70" width="50" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-59" value="stores the base of each leg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="70" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-60" value="calls the clock function" style="text;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-61" value="&amp;nbsp;default leg coordinates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-62" value="functions run for each leg and&lt;br&gt;&amp;nbsp;return a 3 dimensional vector &lt;br&gt;that stores the desired leg position" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="140" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-63" value="stores three values which correspond to&lt;br&gt;&amp;nbsp;the three joint angles of each leg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-64" value="計算PS4操控動作的參數&lt;br&gt;之後送進kinematics" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="780" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-65" value="確認stick左右兩邊的XY位置是否在死角,並進行修正" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="820" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfQKTGb5kcTvKhnk0vQk-66" value="確認觸控板的狀態" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="860" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
