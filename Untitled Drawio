@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T08:31:29.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.136 Safari/537.36" etag="hlmAScve9glulc6d1k2v" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-30T08:39:02.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.136 Safari/537.36" etag="O_RbnXS6w__PsDndldHo" version="20.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="462" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="597" pageHeight="210" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="20" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-4" value="MQTT_connect()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="210" width="20" height="85" as="geometry" />
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-10" value="Define parameter" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="445" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="75" width="20" height="90" as="geometry" />
@@ -46,17 +46,53 @@
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-12" value="&lt;div&gt;BLYNK_TEMPLATE_ID&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BLYNK_DEVICE_NAME&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BLYNK_FIRMWARE_VERSION&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="149" y="90" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PyqyaJXR6jj8Gz9_nvJK-2" target="PyqyaJXR6jj8Gz9_nvJK-10">
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PyqyaJXR6jj8Gz9_nvJK-2" target="PyqyaJXR6jj8Gz9_nvJK-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="360" as="sourcePoint" />
             <mxPoint x="230" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PyqyaJXR6jj8Gz9_nvJK-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="325" width="20" height="170" as="geometry" />
+          <mxGeometry x="140" y="400" width="20" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-16" value="define 元件Pin腳,輸入輸出&lt;br&gt;WLAN_SSID&lt;br&gt;WLAN_PASS&lt;br&gt;AIO_SERVER&lt;br&gt;AIO_SERVERPORT&lt;br&gt;AIO_USERNAME&lt;br&gt;AIO_KEY&lt;br&gt;Adafruit_MQTT_Client mqtt&lt;br&gt;adafruitio_root_ca&lt;br&gt;Adafruit_MQTT_Publish humid&lt;br&gt;temp,soil,light" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="325" width="190" height="170" as="geometry" />
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-16" value="define 元件Pin腳,輸入輸出&lt;br&gt;WLAN_SSID&lt;br&gt;WLAN_PASS&lt;br&gt;AIO_SERVER&lt;br&gt;AIO_SERVERPORT&lt;br&gt;AIO_USERNAME&lt;br&gt;AIO_KEY&lt;br&gt;Adafruit_MQTT_Client mqtt&lt;br&gt;adafruitio_root_ca&lt;br&gt;Adafruit_MQTT_Publish humid&lt;br&gt;temp,soil,light&lt;br&gt;DHT dht" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="390" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PyqyaJXR6jj8Gz9_nvJK-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="590" />
+              <mxPoint x="350" y="590" />
+              <mxPoint x="350" y="40" />
+              <mxPoint x="440" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-18" value="mqtt.connected()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="160" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PyqyaJXR6jj8Gz9_nvJK-4" target="PyqyaJXR6jj8Gz9_nvJK-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-20" value="BlynkEdgent.h" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="315" width="20" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-22" value="Setup all data/config need &lt;br&gt;about blynk connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="144" y="327.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PyqyaJXR6jj8Gz9_nvJK-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PyqyaJXR6jj8Gz9_nvJK-20" target="PyqyaJXR6jj8Gz9_nvJK-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="300" as="sourcePoint" />
+            <mxPoint x="180" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
